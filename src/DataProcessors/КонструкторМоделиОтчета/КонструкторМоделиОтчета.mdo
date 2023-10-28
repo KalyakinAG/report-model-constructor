@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b477e086-2c29-4c44-a1df-301558b3b9e6">
+  <producedTypes>
+    <objectType typeId="945cbade-9c47-4541-bdd8-0662ccef7869" valueTypeId="0c2adc13-1fdf-44b3-b91c-bf3c4e72ff78"/>
+    <managerType typeId="49e8211e-4b98-4c34-bbf3-0f273bb2bc14" valueTypeId="865a1563-667d-4e72-8b98-60887f442dc7"/>
+  </producedTypes>
+  <name>КонструкторМоделиОтчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конструктор модели отчета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КонструкторМоделиОтчета.Form.Форма</defaultForm>
+  <attributes uuid="3113c8a6-ffc6-41f6-aef0-3de37e29d6b1">
+    <name>ТекстМодели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст модели</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="844f66d4-a534-45c6-af14-8ed8ad0973f2">
+    <name>ТекстСКД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст СКД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="4879e592-1317-43da-9930-a63585322262">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

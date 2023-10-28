@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="30392e68-4438-4161-86a5-5004b3bc1c55">
+  <name>КонструкторМоделиОтчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конструктор модели отчета</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="67854ad2-c7a4-45eb-b213-afe3296cfba9"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="a98b6648-950d-434c-a110-fbae36194962"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="fcc56b1a-d01e-4ef1-930a-1ef621109b74"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="431190be-65a6-4a31-b029-cca42ff7c359"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="8f625e7b-82e6-4934-b3b7-dfd870689cc3"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="89c97efb-61cd-4190-97e4-8df14ff3f6b9"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="36f4b4ad-d99a-476a-9e7a-ee65999133f7"/>
+  <namePrefix>КА_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.23</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <scriptVariant>Russian</scriptVariant>
+  <languages uuid="c74ff573-d3a0-4894-8075-3a4440d1b825">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <dataProcessors>DataProcessor.КонструкторМоделиОтчета</dataProcessors>
+</mdclass:Configuration>
