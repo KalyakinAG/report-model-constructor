@@ -30,5 +30,6 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.КАПодсистемы</subsystems>
   <dataProcessors>DataProcessor.КонструкторМоделиОтчета</dataProcessors>
 </mdclass:Configuration>
