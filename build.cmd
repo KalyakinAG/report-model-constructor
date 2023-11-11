@@ -1,1 +1,1 @@
-.\tools\cfe2cf.exe f .\bin\ReportModelConstructor.cfe КонструкторМоделиОтчета .\bin\ReportModelConstructor.cf
+.\tools\cfe2cf.exe f .\bin\report-model-constructor.cfe КонструкторМоделиОтчета .\bin\report-model-constructor.cf
