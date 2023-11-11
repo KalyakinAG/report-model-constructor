@@ -7,10 +7,7 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>DataProcessor.МодельСхемыКомпоновкиДанных</content>
-  <content>DataProcessor.МодельНастройкиКомпоновкиДанных</content>
-  <content>DataProcessor.МодельМакетаКомпоновкиДанных</content>
-  <content>DataProcessor.МодельМакетаОбластиКомпоновкиДанных</content>
   <content>DataProcessor.КонструкторМоделиОтчета</content>
-  <parentSubsystem>Subsystem.КАПодсистемы.Subsystem.КАМодели</parentSubsystem>
+  <subsystems>КонструкторМоделиОтчета</subsystems>
+  <parentSubsystem>Subsystem.KASL.Subsystem.KASLМодели</parentSubsystem>
 </mdclass:Subsystem>

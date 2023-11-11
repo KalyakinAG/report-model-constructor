@@ -37,6 +37,18 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="d512ac79-b692-4c80-97b7-382977c49aea">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>SpreadsheetDocument</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <forms uuid="4879e592-1317-43da-9930-a63585322262">
     <name>Форма</name>
     <synonym>
@@ -46,4 +58,28 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="67da476f-274e-4cd2-a451-be309351194e">
+    <name>Схема1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема1</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="37e7bded-2ac3-4077-bed8-62bce85e96a5">
+    <name>ДемоОборотноСальдоваяВедомость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо оборотно сальдовая ведомость</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="e1fb1cfd-9d9f-4923-8e43-1c94b4f35c45">
+    <name>ДемоОтчетПоСчетамНаОплатуГлобальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо отчет по счетам на оплату глобальный</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
 </mdclass:DataProcessor>

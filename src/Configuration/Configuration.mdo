@@ -17,19 +17,27 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="8f625e7b-82e6-4934-b3b7-dfd870689cc3"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="89c97efb-61cd-4190-97e4-8df14ff3f6b9"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="36f4b4ad-d99a-476a-9e7a-ee65999133f7"/>
-  <namePrefix>КА_</namePrefix>
+  <namePrefix>KASL</namePrefix>
   <configurationExtensionCompatibilityMode>8.3.23</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <scriptVariant>Russian</scriptVariant>
+  <vendor>Калякин Андрей</vendor>
+  <version>1.0.1</version>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>https://infostart.ru/profile/16301/</value>
+  </vendorInformationAddress>
   <languages uuid="c74ff573-d3a0-4894-8075-3a4440d1b825">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:LanguageExtension">
-      <languageCode>Checked</languageCode>
-    </extension>
-    <languageCode>ru</languageCode>
+    <extension xsi:type="mdclassExtension:LanguageExtension"/>
   </languages>
-  <subsystems>Subsystem.КАПодсистемы</subsystems>
+  <subsystems>Subsystem.KASL</subsystems>
+  <styleItems>StyleItem.ЦветПодписи</styleItems>
   <dataProcessors>DataProcessor.КонструкторМоделиОтчета</dataProcessors>
+  <dataProcessors>DataProcessor.МодельМакетаКомпоновкиДанных</dataProcessors>
+  <dataProcessors>DataProcessor.МодельМакетаОбластиКомпоновкиДанных</dataProcessors>
+  <dataProcessors>DataProcessor.МодельНастройкиКомпоновкиДанных</dataProcessors>
+  <dataProcessors>DataProcessor.МодельСхемыКомпоновкиДанных</dataProcessors>
 </mdclass:Configuration>
