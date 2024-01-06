@@ -36,8 +36,4 @@
   <subsystems>Subsystem.KASL</subsystems>
   <styleItems>StyleItem.ЦветПодписи</styleItems>
   <dataProcessors>DataProcessor.КонструкторМоделиОтчета</dataProcessors>
-  <dataProcessors>DataProcessor.МодельМакетаКомпоновкиДанных</dataProcessors>
-  <dataProcessors>DataProcessor.МодельМакетаОбластиКомпоновкиДанных</dataProcessors>
-  <dataProcessors>DataProcessor.МодельНастройкиКомпоновкиДанных</dataProcessors>
-  <dataProcessors>DataProcessor.МодельСхемыКомпоновкиДанных</dataProcessors>
 </mdclass:Configuration>

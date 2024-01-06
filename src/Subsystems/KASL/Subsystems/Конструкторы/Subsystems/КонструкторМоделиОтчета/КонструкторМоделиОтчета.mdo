@@ -8,5 +8,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>DataProcessor.КонструкторМоделиОтчета</content>
-  <parentSubsystem>Subsystem.KASL.Subsystem.KASLМодели.Subsystem.МодельОтчета</parentSubsystem>
+  <parentSubsystem>Subsystem.KASL.Subsystem.Конструкторы</parentSubsystem>
 </mdclass:Subsystem>
