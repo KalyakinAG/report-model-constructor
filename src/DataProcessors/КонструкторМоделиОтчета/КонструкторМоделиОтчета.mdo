@@ -7,7 +7,7 @@
   <name>КонструкторМоделиОтчета</name>
   <synonym>
     <key>ru</key>
-    <value>Конструктор модели отчета</value>
+    <value>Конструктор модели отчета (Модель отчета)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.КонструкторМоделиОтчета.Form.Форма</defaultForm>
@@ -38,13 +38,41 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="d512ac79-b692-4c80-97b7-382977c49aea">
+    <name>ДокументРезультат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ результат</value>
+    </synonym>
+    <type>
+      <types>SpreadsheetDocument</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e6fe4c76-b373-4d7e-b7c4-a3a81e02bb1a">
+    <name>ТипГенератора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип генератора</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="36b51689-3da2-49fd-b9d0-3c18938a76a6">
     <name>Результат</name>
     <synonym>
       <key>ru</key>
       <value>Результат</value>
     </synonym>
     <type>
-      <types>SpreadsheetDocument</types>
+      <types>String</types>
+      <stringQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

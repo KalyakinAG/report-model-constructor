@@ -12,8 +12,6 @@
 			<role>
 				<dcscom:dimension>true</dcscom:dimension>
 			</role>
-			<appearance/>
-			<inputParameters/>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>МестоХранения</dataPath>
@@ -21,8 +19,6 @@
 			<role>
 				<dcscom:dimension>true</dcscom:dimension>
 			</role>
-			<appearance/>
-			<inputParameters/>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Организация</dataPath>
@@ -30,8 +26,6 @@
 			<role>
 				<dcscom:dimension>true</dcscom:dimension>
 			</role>
-			<appearance/>
-			<inputParameters/>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ПериодДень</dataPath>
@@ -40,8 +34,6 @@
 				<dcscom:periodNumber>1</dcscom:periodNumber>
 				<dcscom:periodType>Main</dcscom:periodType>
 			</role>
-			<appearance/>
-			<inputParameters/>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Регистратор</dataPath>
@@ -50,8 +42,6 @@
 				<dcscom:periodNumber>2</dcscom:periodNumber>
 				<dcscom:periodType>Main</dcscom:periodType>
 			</role>
-			<appearance/>
-			<inputParameters/>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>КоличествоНачальныйОстаток</dataPath>
@@ -61,14 +51,10 @@
 				<dcscom:balanceGroupName>Количество</dcscom:balanceGroupName>
 				<dcscom:balanceType>OpeningBalance</dcscom:balanceType>
 			</role>
-			<appearance/>
-			<inputParameters/>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>КоличествоОборот</dataPath>
 			<field>КоличествоОборот</field>
-			<appearance/>
-			<inputParameters/>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>КоличествоПриход</dataPath>
@@ -192,7 +178,6 @@
 					<dcsset:item xsi:type="dcsset:FilterItemComparison">
 						<dcsset:left xsi:type="dcscor:Field">МестоХранения</dcsset:left>
 						<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
-						<dcsset:right xsi:nil="true"/>
 					</dcsset:item>
 					<dcsset:item xsi:type="dcsset:FilterItemComparison">
 						<dcsset:left xsi:type="dcscor:Field">Номенклатура.Наименование</dcsset:left>
